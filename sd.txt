@@ -38,5 +38,10 @@ PULL REQUEST
 
 git pull 'remote_name' 'branch_name'
 
-git checkout -b 'branch_name'
+git checkout -b 'newbranch_name'
 -Creates new branch
+
+To get files to local dir
+git fetch
+git pull remote branch
+
