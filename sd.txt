@@ -22,6 +22,7 @@ Command (git push origin master)
 Setting up repo
 Create File then cd into it
 git init -b main
+git remote add origin 'urlname'
 
 Pushing single file from local to github
 git add "File name"
@@ -31,4 +32,11 @@ git push origin master
 Multiple File
 git add .
 git commit -m "text"
-git push origin master
+git push -u origin master
+
+PULL REQUEST
+
+git pull 'remote_name' 'branch_name'
+
+git checkout -b 'branch_name'
+-Creates new branch
