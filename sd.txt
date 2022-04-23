@@ -1,14 +1,34 @@
 Create a File that would be the git repo
+
 Then "cd" into the location of folder
+
 Command ( git init -b main)
 - This is to set the local dir as the git repo
+
 Command ( git add .)
 - THis is to add files into local repo and prepare for commit
+
 Command (git commit -m "text")
 - This commits the changes and prepare to be pushed to remote repo
+
 Command ( git remote add origin <remote URL>)
 -sets the new remote
+
 Command (git remote -v)
 -Verfiy URL
-Command (git push orgin master)
 
+Command (git push origin master)
+
+Setting up repo
+Create File then cd into it
+git init -b main
+
+Pushing single file from local to github
+git add "File name"
+git commit -m "text"
+git push origin master
+
+Multiple File
+git add .
+git commit -m "text"
+git push origin master
